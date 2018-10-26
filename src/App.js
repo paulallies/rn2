@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { createDrawerNavigator } from 'react-navigation';
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import Profile from './Profile';
-import Settings from './Settings';
+import Settings from './Settings';  //Tab Nav
+import Profile from './Profile'; //Stack Nav
 
 export default createDrawerNavigator({
   Settings: {
@@ -19,4 +19,4 @@ export default createDrawerNavigator({
       drawerIcon: ({ tintColor }) => <Icon name="user-circle" size={17} />,
     }
   }
-})
+});
