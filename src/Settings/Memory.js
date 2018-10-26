@@ -6,7 +6,7 @@ class Settings1 extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>Settings 1</Text>
+                <Text>Memory Settings</Text>
                 <TouchableOpacity onPress={() => this.props.navigation.openDrawer()}>
                     <Text>Open Drawer</Text>
                 </TouchableOpacity>

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
-class Settings1 extends Component {
+class CPUDetails extends Component {
 
     render() {
         return (
             <View style={styles.container}>
-                <Text>Settings 2 Details</Text>
+                <Text>CPU Details</Text>
 
             </View>
         );
@@ -24,4 +24,4 @@ const styles = StyleSheet.create({
 })
 
 
-export default Settings1;
+export default CPUDetails;
